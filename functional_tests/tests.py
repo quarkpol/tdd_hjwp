@@ -9,7 +9,7 @@ from selenium.common.exceptions import WebDriverException
 from webdriver_manager.firefox import GeckoDriverManager
 
 
-MAX_WAIT = 10
+MAX_WAIT = 2
 
 
 class NewVisitorTest(LiveServerTestCase):
